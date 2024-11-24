@@ -94,6 +94,7 @@ public class Principal {
                     Data dataValidade = new Data(diaVal, mesVal, anoVal);
 
                     produto = new Produto(nomeProduto, precoProduto, dataValidade);
+                    loja.insereProduto(produto);
                     break;
 
                 case 3:
